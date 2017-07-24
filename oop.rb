@@ -5,6 +5,16 @@
 # - The ability to "get" and "set" `name`
 # Type your solution directly below this line:
 
+class Animal
+attr_accessor :name
+  def set_name_to(some_string)
+    @name = some_string
+  end
+
+  def greet
+    puts "I am a #{name}"
+  end
+end
 
 
 
