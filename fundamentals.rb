@@ -5,6 +5,10 @@
 # Type your solution directly below this line:
 
 
+def after_rose(person)
+  puts "would you take this rose, #{person}, in exchange for giving an old beggar
+  woman shelter from the bitter cold?"
+end
 
 
 
@@ -26,7 +30,8 @@ town = {
 # - Add "Belle" to the `guests` array
 # Type your solution directly below this line:
 
-
+town.residents.delete(1)
+town.guests.push(belle)
 
 
 
@@ -43,3 +48,10 @@ friends = ["Chip Potts", "Cogsworth", "Lumière", "Mrs. Potts"]
 # "Belle is friends with Lumière"
 # "Belle is friends with Mrs. Potts"
 # Type your solution directly below this line:
+
+for friend in friends do
+  puts "Belle is friends with Chip Potts"
+  puts "Belle is friends with Cogsworth"
+  puts "Belle is friends with Lumière"
+  puts "Belle is friends with Mrs. Potts"
+end
